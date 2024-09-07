@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lunacal/static/css/main.91949504.css",
+    "main.js": "/lunacal/static/js/main.76dd6540.js",
+    "static/media/Rectangle 5160.png": "/lunacal/static/media/Rectangle 5160.697fd70ac30d61b6ff23.png",
+    "static/media/slick.svg": "/lunacal/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lunacal/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lunacal/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lunacal/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lunacal/index.html",
+    "main.91949504.css.map": "/lunacal/static/css/main.91949504.css.map",
+    "main.76dd6540.js.map": "/lunacal/static/js/main.76dd6540.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91949504.css",
+    "static/js/main.76dd6540.js"
+  ]
+}
