@@ -54,19 +54,19 @@ function App() {
 
             <button
               onClick={() => handleClick(1)}
-              className="w-[195px] relative z-10 text-center"
+              className="w-[195px] relative z-10 text-center hover:bg-neutral-800 rounded-[23px] transition ease-in-out duration-300 "
             >
               About Me
             </button>
             <button
               onClick={() => handleClick(2)}
-              className="w-[195px] relative z-10 text-center p-2"
+              className="w-[195px] relative z-10 text-center p-2 hover:bg-neutral-800 rounded-[23px] transition ease-in-out duration-300"
             >
               Experiences
             </button>
             <button
               onClick={() => handleClick(3)}
-              className="w-[195px] relative z-10 text-center"
+              className="w-[195px] relative z-10 text-center hover:bg-neutral-800 rounded-[23px] transition ease-in-out duration-300"
             >
               Recommended
             </button>
@@ -96,23 +96,23 @@ function App() {
               <div className="flex justify-center items-center gap-6">
                 {/* Custom navigation buttons */}
                 <button
-                  className="bg-slate-800 hover:bg-black transition-all text-[#969696] p-2 rounded-full shadow-sm shadow-cyan-50"
+                  className="bg-slate-800 hover:bg-[#161718] transition-all text-[#969696] p-4 rounded-full shadow-sm shadow-cyan-50"
                   onClick={() => sliderRef.current.slickPrev()}
                 >
-                  <FaArrowLeft size={25} />
+                  <FaArrowLeft size={20} />
                 </button>
                 <button
-                  className="bg-slate-800 hover:bg-black transition-all text-[#969696] p-2 rounded-full shadow-sm shadow-cyan-50"
+                  className="bg-slate-800 hover:bg-[#161718] transition-all text-[#969696] p-4 rounded-full shadow-sm shadow-cyan-50"
                   onClick={() => sliderRef.current.slickNext()}
                 >
-                  <FaArrowRight size={25}/>
+                  <FaArrowRight size={20}/>
                 </button>
               </div>
             </div>
           </div>
 
           {/* Slick Slider */}
-          <div className="w-full px-16 pt-6">
+          <div className="w-full px-16 pt-6 overflow-visible">
             <Slider ref={sliderRef} {...settings}>
               <div className="rounded-[10px] overflow-visible transition-transform duration-300 ease-in-out">
                 <img 
